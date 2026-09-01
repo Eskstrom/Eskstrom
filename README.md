@@ -1,6 +1,6 @@
 # Hi, I'm Eskstrom 👋
 
-I build practical, thoughtful software—especially tools that make complex ideas easier to understand and workflows easier to focus on.
+I build practical, thoughtful software - especially tools that make complex ideas easier to understand and workflows easier to focus on.
 
 ## Featured projects
 
