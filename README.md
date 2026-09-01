@@ -14,9 +14,7 @@ I build practical, thoughtful software—especially tools that make complex idea
 
 ## What I'm exploring
 
-- Reliable AI applications with retrieval, evaluation, and human handoffs
-- Agent workflows that are simple to inspect and useful in the real world
-- Clear interfaces for learning and decision-making
+Reliable AI applications with retrieval, evaluation, and human handoffs. Agent workflows that are simple to inspect and useful in the real world. Clear interfaces for learning and decision-making.
 
 ## Get in touch
 
