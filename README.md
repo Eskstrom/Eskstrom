@@ -1,4 +1,4 @@
-# Problems I’m working on
+# Hi, I'm Eskstrom
 
 I explore product problems where teams need to make decisions with incomplete information: resolving operational exceptions, choosing AI models, and evaluating whether a workflow is ready to use.
 
@@ -48,3 +48,17 @@ These are early project briefs, with validation still to do.
 - Place controls around specific failures, with a reason for each intervention.
 - Separate a proposed benefit from an observed result.
 - Define what evidence would change the design before expanding it.
+
+## More problems I am exploring
+
+| Theme | Use case | Repository |
+| --- | --- | --- |
+| Support operations | Ground support answers in sources and provide escalation paths. | [ClarityDesk RAG](https://github.com/Eskstrom/claritydesk-rag) |
+| Research workflows | Turn a question into a concise, cited research brief. | [Research Orchestra](https://github.com/Eskstrom/research-orchestra) |
+| Personal productivity | Plan focused work sessions. | [FocusFlow](https://github.com/Eskstrom/focusflow) |
+| Learning interfaces | Explain chess-opening ideas and plans interactively. | [Opening Explainer](https://github.com/Eskstrom/opening-explainer) |
+| Interactive games | Explore a browser-based number puzzle. | [2048 Game](https://github.com/Eskstrom/2048game) |
+
+## Get in touch
+
+Explore the work above or connect through GitHub.
