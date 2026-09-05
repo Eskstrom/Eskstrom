@@ -1,64 +1,79 @@
 # Hi, I'm Eskstrom
 
-I explore product problems where teams need to make decisions with incomplete information: resolving operational exceptions, choosing AI models, and evaluating whether a workflow is ready to use.
+I build tools that help people understand, decide, and act: from AI and operational workflows to everyday productivity, learning, and games.
 
-My focus is the reasoning behind the product: who needs help, which decisions deserve automation, where human review matters, and what evidence would justify the next step.
+I'm interested in the judgment behind a product: why this problem matters, which approach fits, what should stay simple, and what evidence would change the design. Some repositories contain implementations; others document case studies or ideas still to validate.
 
-## Financial operations: act on exceptions before deadlines
+## Start here
 
-**The pain point:** An operations team can see a settlement break and still lack a clear owner, an escalation deadline, or evidence that it has been resolved. A dashboard alone does not close that gap.
-
-In an agency securities-lending case study, I mapped the trade lifecycle, framed discovery questions around operational roles, and prioritized five exception families by frequency, impact, and urgency. I translated that scope into requirements, SQL controls, operating protocols, and UAT scenarios.
-
-**The judgment:** Start with configurable rules rather than predictive ranking. Analysts need to understand why a record was flagged, reproduce the result, and review threshold changes. Each exception has one accountable owner. Resolution and closure are separate states so that fixing the issue does not substitute for retaining evidence.
-
-**Where controls belong:** The proposed workflow requires closure evidence and a second reviewer for high-severity manual overrides. Trade execution, credit approvals, and external communications remain outside the automation scope. The static demo uses synthetic records and has no production connections or authentication; it demonstrates the workflow, not production access controls.
-
-**Design takeaway and next test:** Ownership and closure criteria are part of the product. A proposed shadow-mode pilot would test false alerts and missing data before changing operations. The repository’s improvement targets are illustrative, not measured outcomes.
-
-[Explore the case study, decisions, SQL controls, and demo](https://github.com/Eskstrom/agency-lending-operations-case-study)
-
-## Enterprise AI: choose a model for the work it must do
-
-**The pain point:** Teams adopting models independently can lose track of quality, cost, and which models are appropriate for sensitive work. A single leaderboard cannot settle those workload-specific decisions.
-
-In an enterprise model-platform case study, I defined an evaluation approach for grounded Q&A, summarization, extraction, and tool calling, then connected those evaluations to routing policies and launch decision records.
-
-**The judgment:** Choose a model that meets the workload’s quality bar within latency, cost, and governance constraints. Measure cost per successful task alongside quality and P95 latency; a lower token price alone does not establish better value.
-
-**Where controls belong:** The design includes approved-model lists, versioned decisions, review paths, and rollback. It deliberately defers live traffic routing and automatic model approval so the initial scope can focus on the evidence needed to make a selection.
-
-**Design takeaway and next test:** Model choice needs a repeatable decision process. The next validation step is a versioned, representative workload comparison. This repository documents the framework and product design, not measured model performance or a production platform.
-
-[Explore the evaluation framework, scope decisions, and governance design](https://github.com/Eskstrom/enterprise-llm-model-hub)
-
-## Questions I’m exploring next
-
-These are early project briefs, with validation still to do.
-
-| Theme | Problem and proposed approach | Evidence needed next |
+| Explore | Why it matters | Status |
 | --- | --- | --- |
-| AI deployment operations | Help deployment managers identify blocked customer sites using readiness checks and explainable risk rules. | Test whether users can identify a blocked site and its next action in under a minute. [Read the brief](https://github.com/Eskstrom/ai-deployment-command-center). |
-| Recruiting search quality | Test whether semantic retrieval improves recruiter-style search against a keyword baseline using synthetic profiles. Evaluate retrieval relevance without turning it into a hiring recommendation. | Document relevance judgments and compare precision@5, recall@5, and failure cases. [Read the brief](https://github.com/Eskstrom/candidate-search-eval-lab). |
+| [Opening Explainer](https://github.com/Eskstrom/opening-explainer) | Understand the purpose of a chess move while stepping through the position. | Implementation |
+| [FocusFlow](https://github.com/Eskstrom/focusflow) | Start focused work and track sessions from the terminal. | Implementation |
+| [2048 Game](https://github.com/Eskstrom/2048game) | Explore interaction design through a familiar, playable puzzle. | Implementation |
+| [Agency Lending Operations](https://github.com/Eskstrom/agency-lending-operations-case-study) | Turn operational exceptions into accountable action with closure evidence. | Case study + synthetic demo |
+| [Enterprise LLM Model Hub](https://github.com/Eskstrom/enterprise-llm-model-hub) | Choose models against workload quality, latency, cost, and governance needs. | Case study |
+| [Marketplace Discovery Diagnostic](https://github.com/Eskstrom/marketplace-discovery-diagnostic) | Investigate how catalog structure prevents shoppers from finding products. | Concept brief |
 
-## How I approach these problems
+## Making AI useful and trustworthy
 
-- Start with the user’s decision and the cost of getting it wrong.
-- Make alternatives and scope boundaries explicit.
-- Place controls around specific failures, with a reason for each intervention.
-- Separate a proposed benefit from an observed result.
-- Define what evidence would change the design before expanding it.
+Support, research, recruiting, and AI platform decisions: the shared question is what evidence makes an automated output useful enough to act on.
 
-## More problems I am exploring
+| Project | Problem and direction | Decision to investigate | Status |
+| --- | --- | --- | --- |
+| [ClarityDesk RAG](https://github.com/Eskstrom/claritydesk-rag) | Help support teams answer from sources and escalate unsupported questions with useful context. | When should the assistant answer, clarify, or abstain? | Concept brief |
+| [Research Orchestra](https://github.com/Eskstrom/research-orchestra) | Make research conclusions traceable to collected evidence. | Do multiple agents improve citation quality enough to justify added complexity? | Concept brief |
+| [Candidate Search Evaluation Lab](https://github.com/Eskstrom/candidate-search-eval-lab) | Find relevant experience that keyword searches can miss. | Compare semantic and keyword retrieval on labeled synthetic examples, including misleading matches. | Concept + scope and measurement plan |
+| [Enterprise LLM Model Hub](https://github.com/Eskstrom/enterprise-llm-model-hub) | Select a model for the workload it must perform. | Balance task success, latency, cost per successful task, and governance constraints. | Case study |
+| [Agent Use-Case Prioritizer](https://github.com/Eskstrom/agent-use-case-prioritizer) | Decide whether a workflow merits automation, assistance, investigation, or no intervention. | When should error cost and data limitations outweigh expected efficiency? | Concept brief |
+| [Governance Guardrails Toolkit](https://github.com/Eskstrom/governance-guardrails-toolkit) | Translate launch concerns into specific controls and evidence requirements. | Why does one scenario require a control while another does not? | Concept brief |
+| [Human Approval Workspace](https://github.com/Eskstrom/human-approval-workspace) | Help reviewers assess recommendations without rubber-stamping them. | Does the evidence display help people detect incorrect recommendations? | Concept brief |
 
-| Theme | Use case | Repository |
-| --- | --- | --- |
-| Support operations | Ground support answers in sources and provide escalation paths. | [ClarityDesk RAG](https://github.com/Eskstrom/claritydesk-rag) |
-| Research workflows | Turn a question into a concise, cited research brief. | [Research Orchestra](https://github.com/Eskstrom/research-orchestra) |
-| Personal productivity | Plan focused work sessions. | [FocusFlow](https://github.com/Eskstrom/focusflow) |
-| Learning interfaces | Explain chess-opening ideas and plans interactively. | [Opening Explainer](https://github.com/Eskstrom/opening-explainer) |
-| Interactive games | Explore a browser-based number puzzle. | [2048 Game](https://github.com/Eskstrom/2048game) |
+## Helping operations teams act
+
+Healthcare implementation, record reconciliation, financial operations, and data quality: make blockers visible, ownership explicit, and the next action understandable.
+
+| Project | Problem and direction | Decision to investigate | Status |
+| --- | --- | --- | --- |
+| [AI Deployment Command Center](https://github.com/Eskstrom/ai-deployment-command-center) | Move customer deployments from installed to operationally usable. | Separate technical readiness from training, adoption, and unresolved launch blockers. | Concept + scope and measurement plan |
+| [Clinical Feedback Insight Hub](https://github.com/Eskstrom/clinical-feedback-insight-hub) | Distinguish product defects, training gaps, and workflow mismatches in implementation feedback. | Let people correct classifications and explain why similar complaints need different responses. | Concept brief |
+| [Referral Loop Simulator](https://github.com/Eskstrom/referral-loop-simulator) | Find where follow-up workflows lose people and explore operational interventions. | Does faster outreach solve the bottleneck or move it to appointment capacity? | Concept brief |
+| [Eligibility Reconciliation Workbench](https://github.com/Eskstrom/eligibility-reconciliation-workbench) | Reconcile inconsistent records without silently joining the wrong people. | Set auto-match, review, and reject thresholds against synthetic ground truth and error costs. | Concept brief |
+| [Agency Lending Operations](https://github.com/Eskstrom/agency-lending-operations-case-study) | Turn time-sensitive exceptions into accountable action. | Use explainable rules, one owner, and evidence-backed closure; retain review for high-severity overrides. | Case study + synthetic demo |
+| [Workflow Exception Navigator](https://github.com/Eskstrom/workflow-exception-navigator) | Route operational cases to the right owner with enough context to act. | Explore reusable routing and handoff patterns across workflows. | Concept brief |
+| [AI Data Quality Sentinel](https://github.com/Eskstrom/ai-data-quality-sentinel) | Catch broken inputs before they undermine downstream workflows. | Distinguish actionable changes from harmless variation and connect alerts to reproducible checks. | Concept brief |
+
+Operational concepts use synthetic or fictional examples. The lending demo is static; proposed benefits and targets are not measured production outcomes.
+
+## Making commerce easier to navigate
+
+Help shoppers find relevant products and understand what they are buying. These concepts focus on the quality of product information and the decisions it enables.
+
+| Project | Problem and direction | Decision to investigate | Status |
+| --- | --- | --- | --- |
+| [Marketplace Discovery Diagnostic](https://github.com/Eskstrom/marketplace-discovery-diagnostic) | Find products hidden by poor categories, missing attributes, and weak filter coverage. | Show the same shopping task before and after a catalog fix; weigh navigability against taxonomy complexity. | Concept brief |
+| [Return-Risk Explainer](https://github.com/Eskstrom/return-risk-explainer) | Surface listing ambiguities that can cause preventable purchase misunderstandings. | Link each flag to missing or conflicting information without claiming proven reductions in returns. | Concept brief |
+
+## Everyday tools, learning, and play
+
+Small products are a place to explore clarity, interaction, and enjoyment. Games belong here as deliberate creative work: familiar rules make the quality of feedback and control especially visible.
+
+| Project | Problem and direction | Design choice or next question | Status |
+| --- | --- | --- | --- |
+| [FocusFlow](https://github.com/Eskstrom/focusflow) | Help terminal users start focused work without switching to another planning app. | A CLI and local SQLite storage keep the workflow close to the work. Do tracking and analytics help focus or add overhead? | Implementation |
+| [FocusFlow AI Planner](https://github.com/Eskstrom/focusflow-ai-planner) | Turn an ambitious task list into a schedule that fits available time. | Respect scheduling constraints and user overrides; complement FocusFlow's execution workflow. | Concept brief |
+| [Case Study Evidence Studio](https://github.com/Eskstrom/case-study-evidence-studio) | Explain work clearly without overstating what happened. | Keep facts, assumptions, and unverified outcomes distinguishable through editing and export. | Concept brief |
+| [Opening Explainer](https://github.com/Eskstrom/opening-explainer) | Understand why a chess move is played at the moment it appears. | Curated explanations sit beside the board in a static app. Next question: can learners transfer the ideas to unfamiliar positions? | Implementation |
+| [2048 Game](https://github.com/Eskstrom/2048game) | Make a familiar puzzle approachable through responsive controls and clear feedback. | Keyboard and touch input, undo, synthesized sound, and saved preferences create tradeoffs around challenge, recovery, and distraction. | Implementation |
+
+For future game experiments, the direction is a small playable experience around one original mechanic, with a design log connecting playtest observations to revisions.
+
+## How I approach the work
+
+Start with a person, a situation, and a reason to care. Compare approaches and explain the scope. Add controls around specific failures; keep interactions lightweight when the consequences are small. Separate what has been built or observed from what is proposed, and identify the next test that could change the design.
+
+Implementation means source code is present, not a claim of production readiness or validated user outcomes. Concept entries describe intended directions, not completed features. The linked repositories contain the available detail.
 
 ## Get in touch
 
-Explore the work above or connect through GitHub.
+Explore the repositories above or connect through GitHub.
