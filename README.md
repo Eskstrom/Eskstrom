@@ -1,4 +1,4 @@
-# Hi, I'm Eskstrom
+# Sumukh Gadavilli [Linkedin](https://www.linkedin.com/in/sumukh-gadavilli/)
 
 I build tools that help people understand, decide, and act: from AI and operational workflows to everyday productivity, learning, and games.
 
