@@ -8,7 +8,6 @@ I'm interested in the judgment behind a product: why this problem matters, which
 
 | Explore | Why it matters | Status |
 | --- | --- | --- |
-| [Opening Explainer](https://github.com/Eskstrom/opening-explainer) | Understand the purpose of a chess move while stepping through the position. | Implementation |
 | [FocusFlow](https://github.com/Eskstrom/focusflow) | Start focused work and track sessions from the terminal. | Implementation |
 | [2048 Game](https://github.com/Eskstrom/2048game) | Explore interaction design through a familiar, playable puzzle. | Implementation |
 | [Agency Lending Operations](https://github.com/Eskstrom/agency-lending-operations-case-study) | Turn operational exceptions into accountable action with closure evidence. | Case study + synthetic demo |
@@ -63,10 +62,15 @@ Small products are a place to explore clarity, interaction, and enjoyment. Games
 | [FocusFlow](https://github.com/Eskstrom/focusflow) | Help terminal users start focused work without switching to another planning app. | A CLI and local SQLite storage keep the workflow close to the work. Do tracking and analytics help focus or add overhead? | Implementation |
 | [FocusFlow AI Planner](https://github.com/Eskstrom/focusflow-ai-planner) | Turn an ambitious task list into a schedule that fits available time. | Respect scheduling constraints and user overrides; complement FocusFlow's execution workflow. | Concept brief |
 | [Case Study Evidence Studio](https://github.com/Eskstrom/case-study-evidence-studio) | Explain work clearly without overstating what happened. | Keep facts, assumptions, and unverified outcomes distinguishable through editing and export. | Concept brief |
-| [Opening Explainer](https://github.com/Eskstrom/opening-explainer) | Understand why a chess move is played at the moment it appears. | Curated explanations sit beside the board in a static app. Next question: can learners transfer the ideas to unfamiliar positions? | Implementation |
 | [2048 Game](https://github.com/Eskstrom/2048game) | Make a familiar puzzle approachable through responsive controls and clear feedback. | Keyboard and touch input, undo, synthesized sound, and saved preferences create tradeoffs around challenge, recovery, and distraction. | Implementation |
 
 For future game experiments, the direction is a small playable experience around one original mechanic, with a design log connecting playtest observations to revisions.
+
+## Archived projects
+
+| Project | What it explores | Status |
+| --- | --- | --- |
+| [Opening Explainer](https://github.com/Eskstrom/opening-explainer) | A static chess-learning app pairing board positions with curated explanations of each move. Retained as a portfolio reference. | Archived / read-only; no future updates planned |
 
 ## How I approach the work
 
