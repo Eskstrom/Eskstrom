@@ -76,6 +76,8 @@ Start with a person, a situation, and a reason to care. Compare approaches and e
 
 Implementation means source code is present, not a claim of production readiness or validated user outcomes. Concept entries describe intended directions, not completed features. The linked repositories contain the available detail.
 
+The [project decision outline](PROJECT-DECISIONS.md) describes how to connect problems, alternatives, controls, and evidence in individual repository writeups.
+
 ## Get in touch
 
 Explore the repositories above or connect through GitHub.
