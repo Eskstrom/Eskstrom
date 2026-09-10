@@ -68,7 +68,7 @@ Small products are a place to explore clarity, interaction, and enjoyment. Games
 | [Opening Explainer](https://github.com/Eskstrom/opening-explainer) | Understand why a chess move is played at the moment it appears. | Curated explanations sit beside the board in a static app. Next question: can learners transfer the ideas to unfamiliar positions? | Implementation |
 | [2048 Game](https://github.com/Eskstrom/2048game) | Make a familiar puzzle approachable through responsive controls and clear feedback. | Keyboard and touch input, undo, synthesized sound, and saved preferences create tradeoffs around challenge, recovery, and distraction. | Implementation |
 
-For future game experiments, the direction is a small playable experience around one original mechanic, with a design log connecting playtest observations to revisions.
+For future game experiments, the direction is a small playable experience around one original mechanic, with a design log connecting playtest observations to revisions. The [proposed playtest plan](GAME-PLAYTESTS.md) covers control and recovery in 2048, learning transfer in Opening Explainer, and testing an original mechanic.
 
 ## How I approach the work
 
