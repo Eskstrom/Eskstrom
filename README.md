@@ -1,8 +1,10 @@
 # Hi, I'm Eskstrom
 
-I build tools that help people understand, decide, and act: from AI and operational workflows to everyday productivity, learning, and games.
+I build tools for clearer decisions and better everyday experiences. My work spans AI reliability, operational workflows, commerce, productivity, chess learning, and browser games.
 
 I'm interested in the judgment behind a product: why this problem matters, which approach fits, what should stay simple, and what evidence would change the design. Some repositories contain implementations; others document case studies or ideas still to validate.
+
+Browse by interest: [AI and trust](#making-ai-useful-and-trustworthy) · [Operations](#helping-operations-teams-act) · [Commerce](#making-commerce-easier-to-navigate) · [Tools, learning, and games](#everyday-tools-learning-and-play).
 
 ## Start here
 
