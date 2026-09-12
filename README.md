@@ -14,6 +14,12 @@ I'm interested in the judgment behind a product: why this problem matters, which
 | [Enterprise LLM Model Hub](https://github.com/Eskstrom/enterprise-llm-model-hub) | Choose models against workload quality, latency, cost, and governance needs. | Case study |
 | [Marketplace Discovery Diagnostic](https://github.com/Eskstrom/marketplace-discovery-diagnostic) | Investigate how catalog structure prevents shoppers from finding products. | Concept brief |
 
+## UX / product design checkpoint
+
+**[Open the design checkpoint](https://eskstrom.github.io/figma-portfolio-checkpoint/)** · [Repository and detailed change log](https://github.com/Eskstrom/figma-portfolio-checkpoint) · [Next steps](https://github.com/Eskstrom/figma-portfolio-checkpoint#resume-order)
+
+Explore CMU court reservations (mobile and smartwatch), the FastMail kiosk, Con Alma service design, and a Netflix comfort-watching concept. The checkpoint records completed refinements, verified interactions and unfinished work; it is not a finished portfolio. Open a project on the site to reach its Figma file. The site is public; Figma may require sign-in or access permission.
+
 ## Making AI useful and trustworthy
 
 Support, research, recruiting, and AI platform decisions: the shared question is what evidence makes an automated output useful enough to act on.
