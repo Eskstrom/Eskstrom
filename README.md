@@ -8,11 +8,20 @@ I'm interested in the judgment behind a product: why this problem matters, which
 
 | Explore | Why it matters | Status |
 | --- | --- | --- |
+| [AI Workflow Review](https://github.com/Eskstrom/figma-portfolio-checkpoint/tree/main/projects/ai-workflow-review) | Help hospital teams verify AI output, confirm decisions, and recover from unresolved checks. | Original design case study + ten-screen gallery |
 | [FocusFlow](https://github.com/Eskstrom/focusflow) | Start focused work and track sessions from the terminal. | Implementation |
 | [2048 Game](https://github.com/Eskstrom/2048game) | Explore interaction design through a familiar, playable puzzle. | Implementation |
 | [Agency Lending Operations](https://github.com/Eskstrom/agency-lending-operations-case-study) | Turn operational exceptions into accountable action with closure evidence. | Case study + synthetic demo |
 | [Enterprise LLM Model Hub](https://github.com/Eskstrom/enterprise-llm-model-hub) | Choose models against workload quality, latency, cost, and governance needs. | Case study |
 | [Marketplace Discovery Diagnostic](https://github.com/Eskstrom/marketplace-discovery-diagnostic) | Investigate how catalog structure prevents shoppers from finding products. | Concept brief |
+
+## Featured design project: AI workflow review
+
+I was the sole designer of a healthcare workflow review experience, working with hospital technology and operations partners through focused testing and shadowing. The case study covers three design stories: making source evidence easier to inspect, separating review completion from a positive qualification decision, and recovering when insurance verification cannot provide an answer.
+
+**[Read the complete case study](https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/main/projects/ai-workflow-review/CASE-STUDY.md)** · [Browse ten screens](https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/main/projects/ai-workflow-review/SCREENS.md) · [Open Figma](https://www.figma.com/design/w5MWfIM7Y9mNZwHV0AfDWg?node-id=6-2)
+
+The public gallery uses synthetic records and document illustrations. These are static reconstructions of my original designs; outcomes are qualitative and displayed metrics are illustrative. Figma retains its own access permissions.
 
 ## UX / product design checkpoint
 
