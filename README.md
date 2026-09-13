@@ -9,6 +9,7 @@ I'm interested in the judgment behind a product: why this problem matters, which
 | Explore | Why it matters | Status |
 | --- | --- | --- |
 | [AI Workflow Review](https://github.com/Eskstrom/figma-portfolio-checkpoint/tree/main/projects/ai-workflow-review) | Help hospital teams verify AI output, confirm decisions, and recover from unresolved checks. | Original design case study + ten-screen gallery |
+| [Watch & Unlock](https://github.com/Eskstrom/figma-portfolio-checkpoint/tree/main/projects/watch-and-unlock) | Explore optional advertising engagement in exchange for tokens and selected streaming benefits. | Concept case study + 28-screen wireframe prototype |
 | [FocusFlow](https://github.com/Eskstrom/focusflow) | Start focused work and track sessions from the terminal. | Implementation |
 | [2048 Game](https://github.com/Eskstrom/2048game) | Explore interaction design through a familiar, playable puzzle. | Implementation |
 | [Agency Lending Operations](https://github.com/Eskstrom/agency-lending-operations-case-study) | Turn operational exceptions into accountable action with closure evidence. | Case study + synthetic demo |
@@ -28,6 +29,12 @@ The public gallery uses synthetic records and document illustrations. These are 
 **[Open the design checkpoint](https://eskstrom.github.io/figma-portfolio-checkpoint/)** · [Repository and detailed change log](https://github.com/Eskstrom/figma-portfolio-checkpoint) · [Next steps](https://github.com/Eskstrom/figma-portfolio-checkpoint#resume-order)
 
 Explore CMU court reservations (mobile and smartwatch), the FastMail kiosk, Con Alma service design, and a Netflix comfort-watching concept. The checkpoint records completed refinements, verified interactions and unfinished work; it is not a finished portfolio. Open a project on the site to reach its Figma file. The site is public; Figma may require sign-in or access permission.
+
+### Watch & Unlock: OTT rewards concept
+
+[Case study and design notes](https://github.com/Eskstrom/figma-portfolio-checkpoint/tree/main/projects/watch-and-unlock) · [28-screen gallery](https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/main/projects/watch-and-unlock/SCREENS.md) · [Verification notes](https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/main/projects/watch-and-unlock/VERIFICATION.md)
+
+A concept for earning tokens through optional sponsor engagement and redeeming them for viewing benefits. The checkpoint includes TV and mobile wireframes and a simulated click-through prototype. Token economics and user outcomes remain unvalidated; native Figma construction is still pending.
 
 ## Making AI useful and trustworthy
 
