@@ -4,6 +4,10 @@ I build tools that help people understand, decide, and act: from AI and operatio
 
 I'm interested in the judgment behind a product: why this problem matters, which approach fits, what should stay simple, and what evidence would change the design. Some repositories contain implementations; others document case studies or ideas still to validate.
 
+**[Visit my portfolio](https://eskstrom.github.io/)**
+
+Browse by interest: [AI and trust](#making-ai-useful-and-trustworthy) · [Operations](#helping-operations-teams-act) · [Commerce](#making-commerce-easier-to-navigate) · [Tools, learning, and games](#everyday-tools-learning-and-play).
+
 ## Start here
 
 | Explore | Why it matters | Status |
@@ -94,11 +98,15 @@ For future game experiments, the direction is a small playable experience around
 | --- | --- | --- |
 | [Opening Explainer](https://github.com/Eskstrom/opening-explainer) | A static chess-learning app pairing board positions with curated explanations of each move. Retained as a portfolio reference. | Archived / read-only; no future updates planned |
 
+The [proposed playtest plan](GAME-PLAYTESTS.md) covers 2048 and future game experiments; its chess section is retained as an archived reference.
+
 ## How I approach the work
 
 Start with a person, a situation, and a reason to care. Compare approaches and explain the scope. Add controls around specific failures; keep interactions lightweight when the consequences are small. Separate what has been built or observed from what is proposed, and identify the next test that could change the design.
 
 Implementation means source code is present, not a claim of production readiness or validated user outcomes. Concept entries describe intended directions, not completed features. The linked repositories contain the available detail.
+
+The [project decision outline](PROJECT-DECISIONS.md) connects problems, alternatives, controls, and evidence in repository writeups.
 
 ## Get in touch
 
