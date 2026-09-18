@@ -34,7 +34,8 @@ The public gallery uses synthetic records and document illustrations. These are 
 
 Explore CMU court reservations (mobile and smartwatch), the FastMail kiosk, Con Alma service design, and a Netflix comfort-watching concept. The checkpoint records completed refinements, verified interactions and unfinished work; it is not a finished portfolio. Open a project on the site to reach its Figma file. The site is public; Figma may require sign-in or access permission.
 
-### Watch & Unlock: OTT rewards concept
+
+### Product Concept - Watch & Unlock: OTT rewards concept
 
 [Case study and design notes](https://github.com/Eskstrom/figma-portfolio-checkpoint/tree/main/projects/watch-and-unlock) · [28-screen gallery](https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/main/projects/watch-and-unlock/SCREENS.md) · [Verification notes](https://github.com/Eskstrom/figma-portfolio-checkpoint/blob/main/projects/watch-and-unlock/VERIFICATION.md)
 
