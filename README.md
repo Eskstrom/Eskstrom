@@ -30,3 +30,23 @@ The [full collection](PROJECTS.md) includes AI evaluation, commerce, governance,
 Start with the person and the friction. Make evidence and decisions visible. Keep the interaction as simple as the situation allows. Separate what is known from what the next test needs to establish.
 
 [Let’s talk on LinkedIn →](https://www.linkedin.com/in/sumukh-gadavilli/)
+
+<!-- portfolio-future-plans:start -->
+## Future plans and PRD direction
+
+*Planning review: 24 September 2026. These are proposed next steps, not completed work or measured outcomes.*
+
+**Priority recommendation:** Maintain the profile as the portfolio entry point.
+
+Center the next portfolio revision on healthcare workflows, AI evaluation and adoption, with one developed growth case.
+
+### Next scope
+
+- [ ] Feature a small set of evidence-backed cases and link to the canonical portfolio.
+- [ ] Make concept, prototype, implementation and evaluated-work status visible.
+- [ ] Keep detailed project roadmaps in their respective READMEs; retain hobby work as optional background.
+
+### Validation and decision criteria
+
+Check every featured link and preserve accurate ownership and outcome claims. Planned metrics and synthetic results must remain distinguishable from observed outcomes.
+<!-- portfolio-future-plans:end -->
